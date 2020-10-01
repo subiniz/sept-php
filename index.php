@@ -14,7 +14,7 @@ if($result->num_rows > 0) {
 		// echo "id: $row["id"] <br> name: $row["name"] <br>";
 	}
 } else {
-	echo "There is no data available";
+	echo "No DATA Available";
 }
 
 

@@ -1,6 +1,6 @@
 <?php
 //Object Oriented
-$serverName = 'localhost';
+$serverName = 'localhost'; //Server name
 $username = 'root';
 $password = 'root';
 $dbName = 'sept_php';
