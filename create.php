@@ -5,7 +5,7 @@ $sql = "insert into users (name, age, phone, address) values ('Subin', 12, '9849
 $insert = $conn->query($sql);
 
 if($insert === TRUE) {
-	echo "Successfully Created";
+	echo "The User was successfully created";
 } else {
 	echo "Error: " . $conn->error;
 }
